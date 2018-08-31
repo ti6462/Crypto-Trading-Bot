@@ -1,0 +1,90 @@
+## NOTE ##
+# UPDATED: 6-10-18
+
+# The filename must exactly match the trading pair as returned from GDAX.  Eg. ETH-USD, BTC-USD, LTC-USD...
+
+ Indicator Hours: 
+ Baseline Hours: 
+ Buy Threshold %: 
+ Sell Threshold %: 
+
+ Buy Down Trigger: 
+ Buy Down Trigger Buffer: 
+
+ Sell Down Trigger: 
+
+ SMA Sell Change Trigger Hours: 
+ SMA Sell Change Threshold: 
+ SMA Sell Adjust Threshold: 
+
+ SMA Buy Change Threshold: 
+ SMA Buy Adjust Threshold: 
+
+ Sell Up Trigger: 
+ Sell Up Trigger Stop: 
+ Sell Up Trigger2: 
+ Sell Up Trigger Stop 2: 
+ Sell Up Trigger Buffer: 
+
+ Buy Up Trigger: 
+ Buy Up Trigger Buffer: 
+
+ SMA Sell Constraint: 
+ SMA Sell Constraint Buffer: 
+
+ # Lag time is in hours. 0 lag will result in the closing candle being 
+ Lag Time: 
+
+# Frequency in minutes. Valid frequencies are one minute, five minutes, fifteen minutes, one hour, six hours, and one day.  
+ Frequency: 
+
+ Buy Down Last Trade: 
+ Buy Down Low Profit: 
+
+ Sell Up After Trade Time: 
+ Sell Up After Trade Profit: 
+ Sell Up After Trade Adjust: 
+
+ Abandon Sell Time: 
+ Abandon Sell Trigger: 
+ Abandon Sell Adjust: 
+
+ SMA Threshold Down: 
+ Buy Down Trigger Adjusted: 
+
+ SMA Buy Constraint: 0 # bear
+
+ SMA Sell Constraint2: 0 # bear
+
+ Buy Down Release 1: 
+ Buy Down Release 2: 
+ Buy Down Sell Constraint: 
+
+ Sell Up Advice Time: 
+ Sell Up Advice Change: 
+
+
+ Indicator Long Hours: 
+ Baseline Long Hours: 
+
+
+ Bear Market On Switch: 
+ Bear Threshold: 
+ SMA Indicator V3: 
+ SMA Baseline V3: 
+ Buy Threshold V3: 
+ Sell Threshold V3: 
+
+ Bear Profit: 
+ Bear Sell Time:
+ Variance Off:
+
+ #######################
+ #LIMIT ORDER OPTIONS
+ #######################
+
+ #Limit order attempt duration in seconds before a market order is executed.
+ limit order duration: 
+
+ #Limit order attempt permissible slippage before market order is executed. Percentage ( 1 = 1% )
+ limit order slippage: 
